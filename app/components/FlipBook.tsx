@@ -65,7 +65,7 @@ export default function FlipBook() {
 
           <div className="w-full mt-4">
             <img
-              src="/blockA.jpg"
+              src="/BlockA.jpg"
               alt="Block A Tribute"
               className="w-full max-h-40 sm:max-h-44 object-cover shadow-md border-t-4 border-[#e3b983]"
             />
@@ -88,7 +88,7 @@ export default function FlipBook() {
 
           <div className="w-full mt-4">
             <img
-              src="/blockB.jpg"
+              src="/BlockB.jpg"
               alt="Block B Tribute"
               className="w-full max-h-40 sm:max-h-44 object-cover shadow-md border-t-4 border-[#e3b983]"
             />
