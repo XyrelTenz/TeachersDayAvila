@@ -1,11 +1,11 @@
 "use client";
-
 import dynamic from "next/dynamic";
+import type { FC } from "react";
 
-const HTMLFlipBook = dynamic(() => import("react-pageflip"), {
-  ssr: false,
-}) as any;
-
+const HTMLFlipBook = dynamic(
+  () => import("react-pageflip").then((mod) => mod.default as FC<any>), 
+  { ssr: false }
+);
 export default function FlipBook() {
   return (
     <div className="flex overflow-hidden justify-center items-center min-h-screen bg-gradient-to-br from-[#fff8f0] via-[#fefcf8] to-[#f8efe7] p-4">
