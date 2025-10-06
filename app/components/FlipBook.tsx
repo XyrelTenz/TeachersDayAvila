@@ -38,7 +38,7 @@ export default function FlipBook() {
               Happy Teacher’s Day!
             </h1>
             <h2 className="text-xl font-semibold text-[#b85c1d] mb-2">
-              Mrs. Shinie Kie Avila
+              Ms. Shinie Kie Avila
             </h2>
             <p className="text-gray-700 text-sm sm:text-base leading-relaxed max-w-[240px] text-justify">
              Our very first college adviser and the heart of our programming journey.  
