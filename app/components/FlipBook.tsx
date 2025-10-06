@@ -95,7 +95,7 @@ export default function FlipBook() {
           </div>
         </div>
 
- <div className="relative text-white h-screen w-full flex justify-center items-center overflow-hidden">
+ <div className="relative bg-gradient-to-br from-[#d1803a] to-[#b85c1d] text-white h-screen w-full flex justify-center items-center overflow-hidden">
   {/* Background GIF */}
   <img
     src="/ThankYou.gif"
