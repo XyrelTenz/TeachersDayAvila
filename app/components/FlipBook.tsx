@@ -41,7 +41,7 @@ export default function FlipBook() {
               Ms. Shinie Kie Avila
             </h2>
             <p className="text-gray-700 text-sm sm:text-base leading-relaxed max-w-[240px] text-justify">
-             Our very first year college adviser and the heart of our programming journey.  
+             Our very first-year college adviser and the heart of our programming journey.  
                 Thank you, Ma’am Avila, for guiding us through every code, logic, and lesson  
                 with patience and care. Your dedication doesn’t just build our skills  
                 it builds our confidence to face every challenge ahead.
