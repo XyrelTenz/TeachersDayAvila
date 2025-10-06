@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import dynamic from "next/dynamic";
 
 const HTMLFlipBook = dynamic(() => import("react-pageflip"), {
@@ -64,7 +64,7 @@ export default function FlipBook() {
           </div>
 
           <div className="w-full mt-4">
-            <img
+            <Image
               src="/blockA.jpg"
               alt="Block A Tribute"
               className="w-full max-h-40 sm:max-h-44 object-cover shadow-md border-t-4 border-[#e3b983]"
@@ -87,7 +87,7 @@ export default function FlipBook() {
           </div>
 
           <div className="w-full mt-4">
-            <img
+            <Image
               src="/blockB.jpg"
               alt="Block B Tribute"
               className="w-full max-h-40 sm:max-h-44 object-cover shadow-md border-t-4 border-[#e3b983]"
@@ -97,7 +97,7 @@ export default function FlipBook() {
 
  <div className="relative bg-gradient-to-br from-[#d1803a] to-[#b85c1d] text-white h-screen w-full flex justify-center items-center overflow-hidden">
   {/* Background GIF */}
-  <img
+  <Image
     src="/ThankYou.gif"
     alt="Thank You"
     className="absolute inset-0 w-full h-full object-cover pointer-events-none"
